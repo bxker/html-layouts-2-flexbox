@@ -1,0 +1,114 @@
+body {
+ background: #002FC7;
+ background-image: url('./background.png');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 80vw 100vh;
+ background-position: center center;
+ font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin-top: 5vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    color: white;
+}
+li {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+div > li:hover {
+    cursor: pointer;
+    color: black;
+}
+#owl-nav {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+#logo-title {
+    display: flex;
+    align-items:center;
+    /* font-size: 10rem; */
+
+}
+#logo-title li h1 {
+    font-size: 1.5rem;
+}
+
+.right-side {
+ display: flex;
+ justify-content: space-around;
+ width: 30vw;
+ margin-right: 2.5vw;
+}
+div li {
+    font-size: 12px;
+    font-style: bold;
+}
+
+.btn-1 {
+    border-style: 10px;
+    border-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    font-size: 15px;
+    background: none;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.main-content {
+    width: 65vw;
+    height: 70vh;
+    text-align: center;
+    color: white;
+}
+
+#owl-main {
+    width: 90px;
+    height: 90px;
+}
+
+.main-content h1 {
+    margin-top: 3vh;
+    font-size: 5rem;
+    
+}
+
+.main-content h3 {
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    line-height: 2.5em;
+}
+
+#btn-2 {
+    border-style: none;
+    background: white;
+    height: 65px;
+    width: 250px;
+    border-radius: 35px;
+    font-size: 15px;
+    color: #002FC7;
+    margin-top: 3vh;
+}
+.vl {
+    border-right: 1px solid white;
+    justify-self: flex-end;
+    width: 50%;
+    height: 9vh;
+}
+
+
